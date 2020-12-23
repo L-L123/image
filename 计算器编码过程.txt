@@ -1,0 +1,37 @@
+1.安装idea开发工具并学习基本的使用
+2.查询swing的相关知识了解窗口页面的基本设置
+3.根据上一条构造出自己的GUI页面
+4.
+
+
+
+
+class Solution {
+    public static void main(String[] args){
+        int ag[]={2,7,11,15};
+        int target=9;
+        boolean arr[]=repre(ag);
+        for(int i=0;i<ag.length;i++){
+             int b = target-ag[i];
+             if(arr[b]==true){
+                 println("数组下标为："+i+"和"+get(ag,b)+"的和为："+target);
+             }    
+        }
+    }
+ 
+   int get(int[]a,int b){
+    
+    for(int i=0;i<a.length;i++){
+        if(a[i]==b)
+           return i;
+    }
+    return max;
+}
+    boolean repre(int[]a){
+        boolean []arr;
+       for(int i=0;i<a.length;i++){
+           arr[a[i]]=true;
+       }
+       return arr;
+    }
+}
